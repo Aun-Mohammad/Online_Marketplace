@@ -1,0 +1,77 @@
+   STEPS TO RUN THE PROJECT
+
+1- Since you have cloned the project from the GitHub repository,
+   open the folder in which the project files are located at.
+   Right click inside the folder directory and click on the 
+   'Git Bash Here' option. (Note that Git must've been installed.)
+
+2- When you click on the 'Git bash here' option, a console will 
+   open, write the 'composer update' command. (Note that the 
+   composer must be installed to install or run the laravel 
+   project, it is a dependency of PHP used to install and run
+   the laravel project. Also enter the command I provided without
+   single invented commas, it is just put there to highlight the
+   text for your reference.)
+
+3- Run the XAMPP, if not installed then you should download it,
+   it runs the Apache local host and the MYSQL database. After
+   opening XAMPP, click on the 'start' button of Apache and 
+   MySql option. Also click on the 'Admin option' of the Mysql next
+   to the 'start' of MySql, it will run the MySQl database in your
+   default browser.  
+
+3- Back to you project location, open the Project Folder, Just below
+   the top of your screen there is your folder name and project location,
+   it is present to the left of the search bar which is at the around the
+   top right corner of the screen. Click on that bar below the top of your 
+   screen and write 'cmd' and press the enter key which will open up your 
+   console, then wite 'code .' to run the project. Alternatively if you want 
+   to open your project you can right click inside you project folder and 
+   click on the 'open with Vs Code' option which will also run your project.
+   (Note that for other code editors you'll have to press on their option.)
+
+4- Open the terminal of your VS code, by pressing the 'Ctrl' key and backtik 
+   key '`' together usually present around the top left of keyboard.
+
+5- Run the 'php artisan migrate' or 'php artisan migrate --step' to run
+   the migrations which will migrate your tables to the database.
+
+6- After that run the 'php artisan serve' command in the terminal which
+   will create you local host environment. Hold 'Ctrl' key and press
+   the left click on the local host link. It will run your project live
+   in the browser in a local host environment where you can test and 
+   check the features.
+
+FEATURES OF THE PROJECT BELOW
+
+1- Prevented the back button after the user logs out after registering 
+   the account using middlewares.
+
+2- Added the role of buyer and seller, when registering you can select
+   the role, after login you will redirect to your specific dashboard
+   based on your role.
+
+3- Seller can perform CRUD while the buyer can only view and order the
+   product.
+
+4- You can also register or create multiple sellers and they can only 
+   perform CRUD on their own created respective products preventing the
+   access of the other's authenticated seller products.
+
+5- Buyers can place order along with the quantity, implemented the logic 
+   that if the quantity is doubled, the final price is doubled. The seller 
+   who created the product can view the orders placed by the buyer.
+
+6- Implemeted the logic that only the specific seller who created 
+   the product will recieve the order placed by the buyer, not the 
+   other sellers. 
+    
+
+
+   
+
+ 
+   
+   
+  
+   
